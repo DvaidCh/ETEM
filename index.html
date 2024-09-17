@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ЕТЕМ.Головна</title>
+	<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+	<style type="text/css">
+		body{
+			font-family:'Advent Pro';
+			padding: 0;
+			 font-size: 18pt;
+			 background: url("dither_it_wires.jfif"),radial-gradient(black,blue,black,white,blue,black,blue,black);
+			 background-size:  240px 240px, 10px 10px;
+			 margin: 10px;
+			 background-attachment: fixed;
+			}
+
+		header,footer{
+			background: rgba(25,50,255,1);
+			color: rgba(220, 205, 255, 1);
+		}
+		body *{margin: 5px}
+		#sidepanel{
+			width:150px;
+			position: fixed;
+			right:0;
+			top:50px;
+			background: rgba(220, 205, 255, 0.1);
+			transform:translateX(100px) ;
+			height: 110px;
+			overflow: hidden;
+			backdrop-filter: blur(10px);
+		}
+		#sidepanel:hover{
+			transform: none;
+			height: fit-content;
+		}
+		#touchPoint{
+			width: 100px;height: 100px;
+			background: radial-gradient(rgba(220, 205, 255, 1),rgba(25,50,255,1),rgba(0,0,5,1),rgba(220, 205, 255, 1),rgba(25,50,255,1),rgba(0,0,5,1),rgba(220, 205, 255, 1),rgba(25,50,255,1),rgba(0,0,5,1),transparent,transparent,transparent,transparent);
+			transform: rotate(270deg);
+			color: rgba(220, 205, 255, 1);
+			text-shadow: black 0px 0px 5px;
+			font-weight: bold ;
+		}
+		#sidepanel a{
+			width: 200px;
+			display: block;
+			background: linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,5,1));
+			//border: solid 5px rgba(25,50,255,0.25);
+			margin: 2px;
+		}
+		a, a:visited, a:link{
+			color: rgba(220, 205, 255, 1);
+			text-decoration: none;
+			font-size: bold;
+		}
+		a:hover, a:active{
+			color:black;
+			font-weight: bolder;
+		}
+		.content{
+			min-height: calc(100vh - 150px);
+			background: rgba(220, 205, 255, 0.1);
+			backdrop-filter: blur(10px);
+			font-size: 32pt;
+			margin: 0px 50px;
+			color: rgba(220, 205, 255, 1);
+			font-weight: bold;
+			text-shadow: black 0px 0px 5px;
+			border: ridge rgba(220, 205, 255, 0.50);
+			border-radius:10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="http://www.dstu.dp.ua" class="DSTUlogo">DSTU</a>
+		<a href="index.html" class="ETEMlogo">ETEM</a>
+	</header>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////-->
+	<div class="content">
+		<h1>Lorem ipsum 
+		<h2>SSS</h2>
+		<h3>SSS</h3>
+
+
+
+
+	</div>
+
+
+
+
+
+	<div id="sidepanel"><div id="touchPoint">МЕНЮ</div>
+		<a href="index.html">Головна</a>
+		<a href="">Новини</a>
+		<a href="">Викладачі</a>
+
+	</div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////-->
+	<footer>page made for DSTU/ETEM in 2024<br/>by Chugunov D.V., DSTU/ETEM, 141.EEE PhD student.
+	</footer>
+</body>
+</html>
