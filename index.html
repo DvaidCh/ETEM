@@ -88,13 +88,15 @@
 			 vertical-align:top;
 		}
 		img{
-			
+			width: 100%;
+		}
+		#content * *{background: none;border:none; backdrop-filter: none;}
+		@media (min-width: 800px){img{
 			width: 45%;
 			display: inline;
 			 vertical-align:top;
 		}
-		#content * *{background: none;border:none; backdrop-filter: none;}
-		img + *{width: calc(100% - 45% - 26px);display: inline-block;}
+		img + *{width: calc(100% - 45% - 26px);display: inline-block;}}
 		@media (max-width: 800px) {
 		  #content {
 		    font-size: 20pt; /* Размер шрифта для экранов меньше 800px */
