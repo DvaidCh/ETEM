@@ -68,10 +68,12 @@
 			font-size: 26pt;
 		}
 		#content b{
-			font-weight: bolder;
-			color: rgba(25,50,255,1);
-			background:rgba(220, 205, 255, 0.5); ;
-			text-shadow: none;
+			font-weight: bold;
+			color:white;
+			background:none  ;
+			text-shadow:black 0 0 10px;
+			border:none;
+			border-radius:0px;
 		}
 
 		#content *{
@@ -79,13 +81,14 @@
 			background: rgba(220, 205, 255, 0.1);
 			backdrop-filter: blur(10px);
 			
-			margin: 5px 0px;
+			margin: 5px 5px;
 			color: rgba(220, 205, 255, 1);
-			font-weight: bold;
+			//font-weight: bold;
 			text-shadow: black 0px 0px 5px;
 			border: ridge rgba(220, 205, 255, 0.50);
 			border-radius:10px;
 			 vertical-align:top;
+			 text-shadow:rgb(35,50,0) 0 0 10px;
 		}
 		img{
 			width: 100%;
@@ -95,8 +98,9 @@
 			width: 45%;
 			display: inline;
 			 vertical-align:top;
+			 margin-right:5px;
 		}
-		img + *{width: calc(100% - 45% - 26px);display: inline-block;}}
+		img + *{width: calc(100% - 45% - 46px);display: inline-block;}}
 		@media (max-width: 800px) {
 		  #content {
 		    font-size: 20pt; /* Размер шрифта для экранов меньше 800px */
