@@ -95,6 +95,14 @@
 		}
 		#content * *{background: none;border:none; backdrop-filter: none;}
 		img + *{width: calc(100% - 45% - 26px);display: inline-block;}
+		@media (max-width: 800px) {
+		  #content {
+		    font-size: 20pt; /* Размер шрифта для экранов меньше 800px */
+		  }
+		 @media (max-width: 500px) {
+		  #content {
+		    font-size: 16pt; /* Размер шрифта для экранов меньше 800px */
+		  }
 	</style>
 </head>
 <body>
